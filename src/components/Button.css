@@ -1,0 +1,84 @@
+:root {
+    --primary: #fff;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+}  
+
+.btn--outline {
+    width: 150px;
+    background-color: transparent;
+    height:  100%;
+    padding: 8px 20px;
+    /* border: 1px solid var(--primary); */
+    transition: all 0.3s ease-out;
+}
+
+
+
+.btn--resume {
+    background-color: transparent;
+    color: #8ffddf;
+    
+    font-family: 'Bahnschrift';
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+
+.btn--medium{
+    padding: 8px 20px;
+    font-size: 20px;
+    color:#8ffddf;
+}
+
+.btn--job{
+    padding: 8px 20px;
+    font-size: 20px;
+    font-family: 'Ebrima';
+    color:#b3cde0d0;
+}
+.btn--trying{
+    padding: 8px 20px;
+    font-size: 20px;
+    color:#fff;
+}
+.btn--large{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--medium:hover, .btn--large:hover{
+    background:rgb(255, 255, 255);
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+.btn--job:hover{
+    background:rgba(255, 255, 255, 0.322);
+    color: #8ffddf;
+    font-family: 'Ebrima';
+    transition: all 0.3s ease-out;
+}
+
+
+.btn--active{
+    padding: 8px 20px;
+    font-size: 20px;
+    font-family: 'Ebrima';
+    background:rgba(255, 255, 255, 0.322);
+    color: #8ffddf;
+}
