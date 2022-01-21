@@ -53,7 +53,7 @@ var per = getScrollPercent();
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={scrollTop}>
-            <p className='Namelogo'>Alex Yu</p>
+            <p className='Namelogo'>Alex</p>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
