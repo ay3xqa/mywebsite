@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from './headshot.jfif'
 import pdf from './ConcussionCapstone.png'
 import './Work.css'
 

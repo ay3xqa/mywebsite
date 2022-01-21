@@ -1,7 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
 import '../App.css'
-import {Button} from './Button'
 import logo from './headshot.jfif'
 
 export default function AboutMe() {
@@ -14,7 +13,7 @@ export default function AboutMe() {
      some pretty neat applications and recently been really interested in blockchain and its intersections with business.</p>
         <br></br>
         <p className='a1'>Speaking of business, I love to tap into my entrepreneurial side as much as my coding. I am presently running my own franchise of Storage Scholars, a student-led moving storage for college students, and a  
-        <a href='https://tradenet.ai' target="_blank"><span className='emphText'> trade analytics startup.</span> </a>
+        <a href='https://tradenet.ai' target="_blank" rel="noreferrer"><span className='emphText'> trade analytics startup.</span> </a>
         
         </p>
         <br></br>

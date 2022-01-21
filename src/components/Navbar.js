@@ -10,7 +10,7 @@ function Navbar() {
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  // const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -19,9 +19,7 @@ function Navbar() {
       setButton(true);
     }
   };
-  function test(){
-    console.log("asdf")
-  }
+
   useEffect(() => {
     showButton();
   }, []);
@@ -92,26 +90,26 @@ var per = getScrollPercent();
           <ul className='iconList'>
             
             <li>
-            <a className='git' href = "https://github.com/ay3xqa" target="_blank">
+            <a className='git' href = "https://github.com/ay3xqa" target="_blank" rel="noreferrer">
               <FaGithub className='react-icon' size='1.5em'/>
             </a>
             </li>
 
 
             <li>
-            <a href='https://www.instagram.com/al3xyu/' target='_blank'>
+            <a href='https://www.instagram.com/al3xyu/' target='_blank' rel="noreferrer">
             <FaInstagram className='react-icon' size='1.5em'/>
             </a>
             </li>
 
 
             <li>
-              <a href='https://www.linkedin.com/in/alex-yu-590b871b7/' target='_blank'>
+              <a href='https://www.linkedin.com/in/alex-yu-590b871b7/' target='_blank' rel="noreferrer">
             <FaLinkedin className='react-icon' size='1.5em'/>
             </a>
             </li>
             <li>
-              <a href='https://twitter.com/theyvnglex' target='_blank'>
+              <a href='https://twitter.com/theyvnglex' target='_blank' rel="noreferrer">
             <FaTwitter className='react-icon' size='1.5em'/>
             </a>
             </li>
