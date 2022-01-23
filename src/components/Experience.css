@@ -44,7 +44,7 @@
 
 h1.a1 {
     color: #8ffddf;
-    font-size: 70px;
+    font-size: 50px;
     margin-top: -100px;
     padding-bottom: 20px;
     width:45%;
@@ -54,17 +54,20 @@ h1.a1 {
 .titleHead{
     color: #fff;
     font-family: 'Ebrima';
-    font-size: 25px;
+    font-size: 23px;
+    /* font-size: 2em; */
 }
 
 p.date{
     color: #b3cde0d0;
     font-size: 15px;
+    /* font-size: 1.2em; */
     font-family: 'Ebrima';
     font-style: italic;
 }
 p.text{
     color: #b3cde0d0;
     font-family: 'Ebrima';
-    font-size:19px;
+    font-size:17px;
+    /* font-size: 1.3em; */
 }

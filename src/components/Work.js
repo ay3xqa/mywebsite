@@ -8,14 +8,10 @@ export default function Work() {
       <h1 className='a12'>Work I've Done</h1>
         <div className='inner-work'>
           <div className='text'>
-      <p className='a12'>Hey there! My name is Alex and I am currently a 2nd-year attending the University of Virginia majoring in Computer Science and Pre-commerce. I started coding back in high school creating
-     some pretty neat applications and recently been really interested in blockchain and its intersections with business.</p>
+      <p className='a12'>Utilized the Pandas library to clean and scrape demographics and medical history data from online datasets</p>
         <br></br>
-        <p className='a12'>Speaking of business, I love to tap into my entrepreneurial side as much as my coding. I am presently running my own franchise of Storage Scholars, a student-led moving storage for college students, and a  
-trade analytics startup.
-        </p>
+        <p className='a12'>Trained a logistic regression model, support vector machine model, and decision tree using the Sklearn library to assess future re-concussion risk of NFL players at a 75% accuracy and created a research slide to summarize the findings</p>
         <br></br>
-        <p className='a12'>If you catch me in my free time you'll likely see me stacking chips at the poker table or pushing iron in the gym!</p>
         </div>
       <div className='imageContainer'>
         <img className = 'concuss' src={pdf} alt="Logo" />
@@ -26,14 +22,11 @@ trade analytics startup.
         <img className = 'concuss' src={pdf} alt="Logo" />
         </div>
           <div className='text'>
-      <p className='a12'>Hey there! My name is Alex and I am currently a 2nd-year attending the University of Virginia majoring in Computer Science and Pre-commerce. I started coding back in high school creating
-     some pretty neat applications and recently been really interested in blockchain and its intersections with business.</p>
+      <p className='a12'>Trained a machine learning model to assess the percent match with a disease or condition given the symptoms, and implemented this back end computing into a Flask web application using Python and Javascript</p>
         <br></br>
-        <p className='a12'>Speaking of business, I love to tap into my entrepreneurial side as much as my coding. I am presently running my own franchise of Storage Scholars, a student-led moving storage for college students, and a  
-trade analytics startup.
+        <p className='a12'>Incorporated code that uses natural language processing to group similar text reviews on medications to create a content based recommendation system and recommend optimal medication for certain conditions in a Flask web application
         </p>
         <br></br>
-        <p className='a12'>If you catch me in my free time you'll likely see me stacking chips at the poker table or pushing iron in the gym!</p>
         </div>
       
         </div>

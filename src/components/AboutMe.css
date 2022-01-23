@@ -34,7 +34,8 @@
 p.a1{
 
   color: #b3cde0d0; 
-  font-size: 1vmax;
+  /* font-size: 1vmax; */
+  font-size: 17px;
   font-family: 'Ebrima';
 }
 .emphText{

@@ -62,7 +62,7 @@ export default function Experience() {
             <>
             <h3 className='titleHead'>{jobs.title}</h3><br></br>
             <p className='date'>{jobs.date}</p><br></br>
-            <p className='text'>{jobs.Content}<br></br>{jobs.Content2}<br></br>{jobs.Content3}</p>
+            <p className='text'>{jobs.Content}<br></br><br></br>{jobs.Content2}<br></br><br></br>{jobs.Content3}</p>
             </>
         )
     
