@@ -36,7 +36,7 @@ var per = getScrollPercent();
   window.addEventListener('resize', showButton);
   function scrollExperience(){
     console.log(per)
-    window.scrollTo({top: per*0.5, behavior:'smooth'})
+    window.scrollTo({top: per*0.45, behavior:'smooth'})
   }
   function scrollWork(){
     window.scrollTo({top: per, behavior:'smooth'})

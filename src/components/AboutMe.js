@@ -6,8 +6,10 @@ import logo from './headshot.jfif'
 export default function AboutMe() {
     return (
         <div className='AboutMe-container'>
-      <h1 className='a1'>About Me</h1>
-        <div className='inner'>
+
+        <div className='AboutMe-inner'>
+        <h1 className='a1'>About Me</h1>
+        <div className='tempHolder'>
           <div className='text'>
       <p className='a1'>Hey there! My name is Alex and I am currently a 2nd-year attending the University of Virginia majoring in Computer Science and Pre-commerce. I started coding back in high school creating
      some pretty neat applications and recently been really interested in blockchain and its intersections with business.</p>
@@ -21,6 +23,7 @@ export default function AboutMe() {
         </div>
       <div className='imageContainer'>
         <img className = 'headshot' src={logo} alt="Logo" />
+        </div>
         </div>
         </div>
       </div>

@@ -27,8 +27,9 @@ export default function Experience() {
     }
     return (
         <div className='Experience-container'>
+            <div className='Experience-inner'>
            <h1 className='a1'>Experience</h1> 
-           <div className='inner'>
+           <div className='Experience-holder'>
             <div className='joblist'>
             {butts.map(butt =>{
                 if(butt.click===1){
@@ -71,6 +72,7 @@ export default function Experience() {
 
             
             </div>
+           </div>
            </div>
         </div>
     )

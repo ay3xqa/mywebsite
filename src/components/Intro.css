@@ -9,31 +9,37 @@
     padding-bottom: 15%;
     object-fit: contain;
 }
-
+.Intro-inner{
+    display: flex;
+    flex-direction: column;
+}
 h1.i1{
-    width:55%;
-    margin-left: auto;
-    margin-right: auto;
     color: #b3cde0d0;
-    font-size: 4.5vmax;
+    font-size: 5.2em;
     font-family: 'Bahnschrift';
+    text-align: left;
 }
 p.i1{
-    width:55%;
-    margin-left: auto;
-    margin-right: auto;
     color: #8ffddf;
-    font-size: 1.2vmax;
+    font-size: 1.3em;
     padding-bottom: 1%;
-    
+    text-align: left;
     font-family: 'Ebrima';
 }
 p.i2{
     padding-top: 1%;
-    width:55%;
-    margin-left: auto;
-    margin-right: auto;
     color: #b3cde0d0;
-    font-size: 1.2vmax;
+    font-size: 1.3em;
     font-family: 'Ebrima';
+    text-align: left;
 }
+
+@media screen and (max-width: 960px) {
+    .Intro-inner > h1{
+      font-size: 2.2em;
+    }
+    .Intro-container{
+        width: 100%;
+    }
+    
+  }

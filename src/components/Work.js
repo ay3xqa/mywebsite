@@ -1,12 +1,14 @@
 import React from 'react'
 import pdf from './ConcussionCapstone.png'
+import proj from './projectImg.PNG'
 import './Work.css'
 
 export default function Work() {
     return (
         <div className='Work-container'>
       <h1 className='a12'>Work I've Done</h1>
-        <div className='inner-work'>
+      <div className='inner-work'>
+        <div className='Work-holder'>
           <div className='text'>
       <p className='a12'>Utilized the Pandas library to clean and scrape demographics and medical history data from online datasets</p>
         <br></br>
@@ -17,9 +19,11 @@ export default function Work() {
         <img className = 'concuss' src={pdf} alt="Logo" />
         </div>
         </div>
+        </div>
         <div className='inner-work'>
+        <div className='Work-holder'>
         <div className='imageContainer-bot'>
-        <img className = 'concuss' src={pdf} alt="Logo" />
+        <img className = 'concuss' src={proj} alt="Logo" />
         </div>
           <div className='text'>
       <p className='a12'>Trained a machine learning model to assess the percent match with a disease or condition given the symptoms, and implemented this back end computing into a Flask web application using Python and Javascript</p>
@@ -29,6 +33,7 @@ export default function Work() {
         <br></br>
         </div>
       
+        </div>
         </div>
       </div>
     )

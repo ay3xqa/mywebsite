@@ -12,7 +12,7 @@
   .iconBar{
     position: fixed;
     bottom: 50px;
-    left: 14.25%;
+    left: 14%;
     display: flex;
 
   }
@@ -186,4 +186,11 @@
       color: #242424;
       transition: 250ms;
     }
+  }
+
+  @media screen and (max-width: 1219px) {
+    .iconBar{
+      visibility: hidden;
+    }
+    
   }

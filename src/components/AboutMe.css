@@ -1,5 +1,5 @@
   .AboutMe-container {
-    height: 100vh;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -13,22 +13,25 @@
   .AboutMe-container a{
     text-decoration: none;
   }
-.inner {
+.AboutMe-inner {
   height: 800px;
-  width:45%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 800px;
+  flex-direction: column;
+  display: flex;
+}
+.tempHolder{
   flex-direction: row;
   display: flex;
 }
 .headshot{
   width: 300px;
   height: 300px;
+  border-radius: 3%;
+  border: 2px solid #8ffddf; 
 }
 .imageContainer{
   flex-direction: row;
   display: flex;
-  padding-left: 30px;
   align-content: center;
 }
 p.a1{
@@ -54,13 +57,7 @@ h1.a1 {
     font-family: 'Bahnschrift';
   }
   
-  .AboutMe-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
+
   
   .AboutMe-btns {
     margin-top: 32px;
@@ -75,13 +72,16 @@ h1.a1 {
   }
   
   @media screen and (max-width: 960px) {
-    .AboutMe-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
+    .AboutMe-inner{
+      width: 100%;
     }
+    .tempHolder{
+      flex-direction: column;
+    }
+    
   }
   
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     .AboutMe-container > h1 {
       font-size: 50px;
       margin-top: -100px;
@@ -99,4 +99,6 @@ h1.a1 {
     .btn {
       width: 100%;
     }
-  }
+  } */
+
+ 
