@@ -17,7 +17,7 @@
   height: 800px;
   width: 800px;
   justify-content: center;
-  position: absolute;
+  padding-bottom: 7%;
   flex-direction: column;
   display: flex;
 }
@@ -31,10 +31,13 @@
   border-radius: 3%;
   border: 2px solid #8ffddf; 
 }
-.imageContainer{
+.imageContainer-AboutMe{
   flex-direction: row;
   display: flex;
-  align-content: center;
+  align-content: right;
+}
+.text-AboutMe{
+  width: 450px;
 }
 p.a1{
 

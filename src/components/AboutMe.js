@@ -10,7 +10,7 @@ export default function AboutMe() {
         <div className='AboutMe-inner'>
         <h1 className='a1'>About Me</h1>
         <div className='tempHolder'>
-          <div className='text'>
+          <div className='text-AboutMe'>
       <p className='a1'>Hey there! My name is Alex and I am currently a 2nd-year attending the University of Virginia majoring in Computer Science and Pre-commerce. I started coding back in high school creating
      some pretty neat applications and recently been really interested in blockchain and its intersections with business.</p>
         <br></br>
@@ -21,7 +21,7 @@ export default function AboutMe() {
         <br></br>
         <p className='a1'>If you catch me in my free time you'll likely see me stacking chips at the poker table or pushing iron in the gym!</p>
         </div>
-      <div className='imageContainer'>
+      <div className='imageContainer-AboutMe'>
         <img className = 'headshot' src={logo} alt="Logo" />
         </div>
         </div>

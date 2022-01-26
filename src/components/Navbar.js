@@ -38,7 +38,7 @@ function Navbar() {
   function scrollAboutMe(){
     var vH = window.innerHeight;
     console.log(vH)
-    window.scrollTo({top: vH+150, behavior:'smooth'})
+    window.scrollTo({top: vH+50, behavior:'smooth'})
   }
   function scrollTop(){
     var vH = window.innerHeight;

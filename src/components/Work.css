@@ -38,7 +38,7 @@
   border-radius: 3%;
   border: 2px solid #8ffddf; 
   }
-  .imageContainer{
+  .imageContainer-top{
     flex-direction: row;
     display: flex;
     align-content: center;

@@ -15,7 +15,7 @@ export default function Work() {
         <p className='a12'>Trained a logistic regression model, support vector machine model, and decision tree using the Sklearn library to assess future re-concussion risk of NFL players at a 75% accuracy and created a research slide to summarize the findings</p>
         <br></br>
         </div>
-      <div className='imageContainer'>
+      <div className='imageContainer-top'>
         <img className = 'concuss' src={pdf} alt="Logo" />
         </div>
         </div>
