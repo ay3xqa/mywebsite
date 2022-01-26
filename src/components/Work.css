@@ -5,15 +5,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    object-fit: contain;
     text-decoration: none;
     /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
-    background-color: #04396c;
+    background-color: #010f25;
 }
 .inner-work {
-    flex-direction: column;
-    display: flex;
-  height: 350px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  height: 300px;
   width: 800px;
   }
 
@@ -21,7 +21,16 @@
   display: flex;
   font-display: row;
 }
-
+.text-work1{
+  width: 400px;
+  margin-right: 5%;
+  text-align: center;
+}
+.text-work2{
+  width: 400px;
+  margin-left: 5%;
+  text-align: center;
+}
   .concuss{
     width: auto;
     height: 200px;

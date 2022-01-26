@@ -23,28 +23,26 @@ function Navbar() {
   useEffect(() => {
     showButton();
   }, []);
-  function getScrollPercent() {
- 
-    var body = document.body,
-    html = document.documentElement;
 
-var height = Math.max( body.scrollHeight, body.offsetHeight, 
-                       html.clientHeight, html.scrollHeight, html.offsetHeight );
-    return height;
-}
-var per = getScrollPercent();
-  window.addEventListener('resize', showButton);
+
   function scrollExperience(){
-    console.log(per)
-    window.scrollTo({top: per*0.45, behavior:'smooth'})
+    var vH = window.innerHeight;
+    console.log(vH)
+    window.scrollTo({top: vH+1075, behavior:'smooth'})
   }
   function scrollWork(){
-    window.scrollTo({top: per, behavior:'smooth'})
+    var vH = window.innerHeight;
+    console.log(vH)
+    window.scrollTo({top: vH+2100, behavior:'smooth'})
   }
   function scrollAboutMe(){
-    window.scrollTo({top: per*0.2, behavior:'smooth'})
+    var vH = window.innerHeight;
+    console.log(vH)
+    window.scrollTo({top: vH+150, behavior:'smooth'})
   }
   function scrollTop(){
+    var vH = window.innerHeight;
+    console.log(vH)
     window.scrollTo({top: 0, behavior:'smooth'})
   }
   return (
