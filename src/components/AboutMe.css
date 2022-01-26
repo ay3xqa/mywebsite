@@ -34,7 +34,7 @@
 .imageContainer-AboutMe{
   flex-direction: row;
   display: flex;
-  align-content: right;
+  margin-left: auto;
 }
 .text-AboutMe{
   width: 450px;
