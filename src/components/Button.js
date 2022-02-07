@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
-import Pdf from '../components/AlexYuResume.pdf'
+import Pdf from '../components/AlexYu-1-4-22.pdf'
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test', 'btn--resume'];
 
