@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
-import Pdf from '../components/AlexYu-1-4-22.pdf'
+import Pdf from '../components/AlexYu_Resume.pdf'
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test', 'btn--resume'];
 
@@ -34,7 +34,6 @@ export const Button = ({
 
     
         return (
-
           <a href={Pdf} target="_blank" rel="noreferrer">
           <button 
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}

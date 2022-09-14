@@ -11,7 +11,7 @@ export default function AboutMe() {
         <h1 className='a1'>About Me</h1>
         <div className='tempHolder'>
           <div className='text-AboutMe'>
-      <p className='a1'>Hey there! My name is Alex and I am currently a 2nd-year attending the University of Virginia majoring in Computer Science and Pre-commerce. I started coding back in high school creating
+      <p className='a1'>Hey there! My name is Alex and I am currently a 3rd-year attending the University of Virginia double majoring in Computer Science and Commerce. I started coding back in high school creating
      some pretty neat applications and recently been really interested in blockchain and its intersections with business.</p>
         <br></br>
         <p className='a1'>Speaking of business, I love to tap into my entrepreneurial side as much as my coding. I am presently running my own franchise of Storage Scholars, a student-led moving storage for college students, and a  
