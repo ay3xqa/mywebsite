@@ -8,8 +8,8 @@ export default function Intro() {
             <p className='i1'>Hello, I am </p>
             <h1 className='i1'>Alex Yu.</h1>
             <h1 className='i1'>I like to develop things.</h1>
-            <p className='i2'>I'm an aspiring software engineer and entrepreneur looking<br></br> to do something cool with blockchain. Currently, I'm building out 
-            <br></br>front-end capabilites for a trade data analytics project.</p>
+            <p className='i2'>I'm a software engineer who is always eager to learn.
+            <br></br>Currently, I'm building out some ML models to apply to sports</p>
             </div>
             </div>
 
