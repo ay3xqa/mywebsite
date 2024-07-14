@@ -17,6 +17,11 @@
   width: 800px;
   }
 
+  .Work-container> p> a{
+    text-decoration: none;
+    color: #8ffddf;
+  }
+
 .Work-holder{
   display: flex;
   font-display: row;
