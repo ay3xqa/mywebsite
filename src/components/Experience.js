@@ -5,6 +5,16 @@ import './Experience.css'
 const EXPERIENCES = [
     {
         company: "Capital One",
+        title: "Associate Software Engineer",
+        date: "August 2024 - Present",
+        bullets: [
+            "Managed infrastructure for the platform and deployment pipeline supporting API and business logic for Consumer Identity.",
+            "Developing a centralized tool to gather and archive information after a high severity incident, as a part of the Operational Excellence and Reliability division. ",
+            "Tool supports collaborative document editing up to 100s of concurrent users using a Lambda API and Yjs web-socket server running on ECS Fargate. "
+        ]
+    },
+    {
+        company: "Capital One",
         title: "Software Engineering Intern",
         date: "June 2023 - August 2023",
         bullets: [
@@ -22,16 +32,6 @@ const EXPERIENCES = [
             "Created automated Out of Office messaging within intra-company communication mediums via Slack API"
         ]
     },
-    {
-        company: "Storage Scholars",
-        title: "Campus Co-Founder",
-        date: "March 2021 - October 2022",
-        bullets: [
-            "Co-founded a branch of Storage Scholars at the UVA campus, a storage service by students for students",
-            "Launched a digital marketing campaign as well as utilized traditional marketing techniques to acquire over 500 new accounts (~20% conversion rate to paid customers)",
-            "Oversaw a team of 20 workers to carry out the logistical operations of storage and delivery of over 100 paid customers, generating over $35,000 in revenue during the pilot year"
-        ]
-    }
 ];
 
 export default function Experience() {

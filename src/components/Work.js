@@ -1,24 +1,27 @@
 import React from 'react'
 import './Work.css'
+import ComprehendThumbnail from './comprehend_thumbnail.png'
+import BoltIdThumbnail from './boltid_thumbnail.png'
+import KalshiThumbnail from './kalshi_thumbnail.jpg'
 
 const PROJECTS = [
     {
         title: "Comprehend",
-        description: "A brief description of what this project does and the technologies used to build it.",
+        description: "An AI Powered application for querying external APIs using a GraphQL API and LLM to generate dynamic responses.",
         link: "https://boltid.me",
-        thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
+        thumbnail: ComprehendThumbnail
     },
     {
         title: "BoltId",
-        description: "Another project description highlighting key features and implementation details.",
-        link: "https://boltid.me",
-        thumbnail: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
+        description: "A full-stack identity verification platform using AWS Rekognition for biometric validation, and Algorand to issue and store identity tokens on the blockchain.",
+        link: "https://github.com/ay3xqa/api-smart-query",
+        thumbnail: BoltIdThumbnail
     },
     {
         title: "Algorithmic Trading on Kalshi",
-        description: "Description of the third project explaining the problem it solves and approach taken.",
+        description: "An Algorithmic trading bot using Deribit Crypto Option Market data to trade event-based contracts on Kalshi.",
         link: "https://github.com/ay3xqa/kalshiXderibitTrading",
-        thumbnail: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg"
+        thumbnail: KalshiThumbnail
     }
 ];
 
