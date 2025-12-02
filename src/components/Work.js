@@ -3,21 +3,21 @@ import './Work.css'
 
 const PROJECTS = [
     {
-        title: "Project Title 1",
+        title: "Comprehend",
         videoUrl: "https://www.pexels.com/video/placeholder-video-1",
-        link: "https://github.com/yourusername/project1",
+        link: "https://boltid.me",
         thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
     },
     {
-        title: "Project Title 2",
+        title: "BoltId",
         videoUrl: "https://www.pexels.com/video/placeholder-video-2",
-        link: "https://your-deployed-project.com",
+        link: "https//boltid.me",
         thumbnail: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
     },
     {
-        title: "Project Title 3",
+        title: "Algorihmic Trading on Kalshi",
         videoUrl: "https://www.pexels.com/video/placeholder-video-3",
-        link: "https://github.com/yourusername/project3",
+        link: "https://github.com/ay3xqa/kalshiXderibitTrading",
         thumbnail: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg"
     }
 ];

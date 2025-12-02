@@ -14,13 +14,11 @@
 
 .iconBar {
     position: fixed;
-    bottom: 0;
     left: 40px;
     display: flex;
     z-index: 998;
-    height: 100vh;
+    height: 108vh;
     align-items: flex-end;
-    padding-bottom: 40px;
 }
 
 .react-icon {
