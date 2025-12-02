@@ -18,12 +18,16 @@
 }  
 
 .btn--outline {
-    width: 150px;
+    width: 160px;
+    height: 100px;
     background-color: transparent;
-    height:  100%;
-    padding: 8px 20px;
-    /* border: 1px solid var(--primary); */
-    transition: all 0.3s ease-out;
+    padding: 0;
+    border: 2px solid rgba(143, 253, 223, 0.2);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -45,11 +49,11 @@
     color:#8ffddf;
 }
 
-.btn--job{
-    padding: 8px 20px;
-    font-size: 20px;
+.btn--job {
+    font-size: 18px;
     font-family: 'Ebrima';
-    color:#b3cde0d0;
+    color: #b3cde0d0;
+    font-weight: 500;
 }
 .btn--trying{
     padding: 8px 20px;
@@ -67,18 +71,19 @@
     transition: all 0.3s ease-out;
 }
 
-.btn--job:hover{
-    background:rgba(255, 255, 255, 0.322);
+.btn--job:hover {
+    background: rgba(143, 253, 223, 0.1);
+    border-color: #8ffddf;
     color: #8ffddf;
-    font-family: 'Ebrima';
-    transition: all 0.3s ease-out;
+    transform: translateY(-2px);
 }
 
 
-.btn--active{
-    padding: 8px 20px;
-    font-size: 20px;
+.btn--active {
+    font-size: 18px;
     font-family: 'Ebrima';
-    background:rgba(255, 255, 255, 0.322);
+    background: rgba(143, 253, 223, 0.15);
+    border-color: #8ffddf;
     color: #8ffddf;
+    font-weight: 600;
 }
