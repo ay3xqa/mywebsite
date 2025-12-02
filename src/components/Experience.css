@@ -28,8 +28,8 @@
 .joblist {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    min-width: 180px;
+    gap: 16px;
+    flex-shrink: 0;
 }
 
 .job3 {
