@@ -1,5 +1,6 @@
 .navbar {
-    background: #010f25;
+    background: rgba(1, 15, 37, 0.98);
+    backdrop-filter: blur(10px);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,47 +9,54 @@
     position: sticky;
     top: 0;
     z-index: 999;
-  }
-  .iconBar{
+    border-bottom: 1px solid rgba(143, 253, 223, 0.1);
+}
+
+.iconBar {
     position: fixed;
     bottom: 50px;
     left: 14%;
     display: flex;
+    z-index: 998;
+}
 
-  }
-  .react-icon{
-    color:#b3cde0d0;
-  }
-  .react-icon:hover{
-    color:#8ffddf;
-    transition: ease 150ms;
-  }
-  .iconList{
+.react-icon {
+    color: #b3cde0d0;
+    transition: all 0.2s ease;
+}
+
+.react-icon:hover {
+    color: #8ffddf;
+    transform: translateY(-2px);
+}
+
+.iconList {
     list-style-type: none;
-  }
-  
-  .iconList > li{
+    padding: 0;
+}
+
+.iconList > li {
     margin: 20px 0;
-  }
-  .iconList >li:hover{
-    color: lawngreen;
-  }
-  /* .navText {
-      font-family: ;
-  } */
-  .navbar-container {
+    transition: transform 0.2s ease;
+}
+
+.iconList > li:hover {
+    transform: translateX(4px);
+}
+.navbar-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
     max-width: 1500px;
-  }
-  p.Namelogo{
-   
+}
+
+p.Namelogo {
     font-family: 'Bahnschrift';
     font-weight: bold;
-  }
-  .navbar-logo {
+}
+
+.navbar-logo {
     color: #8ffddf;
     justify-self: start;
     margin-left: 20px;
@@ -57,14 +65,20 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
-  }
-  
-  .fa-typo3 {
+    font-weight: 700;
+    transition: color 0.2s ease;
+}
+
+.navbar-logo:hover {
+    color: #b3cde0d0;
+}
+
+.fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
-  }
-  
-  .nav-menu {
+}
+
+.nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
@@ -73,38 +87,55 @@
     width: 60vw;
     justify-content: end;
     margin-right: 2rem;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     height: 80px;
-  }
-  
-  .nav-links {
-    color: #8ffddf;
+}
+
+.nav-links {
+    color: #b3cde0d0;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-family: 'Bahnschrift';
     height: 100%;
-  }
-  
-  .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
-  }
-  
-  .fa-bars {
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.nav-links::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: #8ffddf;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.nav-links:hover {
+    color: #8ffddf;
+}
+
+.nav-links:hover::after {
+    width: 80%;
+}
+
+.fa-bars {
     color: #fff;
-  }
-  
-  .nav-links-mobile {
+}
+
+.nav-links-mobile {
     display: none;
-  }
-  
-  .menu-icon {
+}
+
+.menu-icon {
     display: none;
-  }
+}
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
