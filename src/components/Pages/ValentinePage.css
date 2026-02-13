@@ -1,0 +1,125 @@
+.valentine-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a0a10 0%, #3d0f20 50%, #1a0a10 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.valentine-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Question Stage */
+.question-stage {
+  animation: fadeIn 0.8s ease;
+}
+
+.valentine-title {
+  font-size: 3rem;
+  color: #ff6b8a;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px rgba(255, 107, 138, 0.5),
+               0 0 40px rgba(255, 107, 138, 0.3);
+  font-family: 'Georgia', serif;
+}
+
+.valentine-subtitle {
+  font-size: 1.2rem;
+  color: #ffb6c1;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.yes-button {
+  padding: 18px 50px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff6b8a, #ff4757);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 20px rgba(255, 71, 87, 0.4);
+}
+
+.yes-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 30px rgba(255, 71, 87, 0.6);
+}
+
+.yes-button:active {
+  transform: scale(0.98);
+}
+
+/* Card Stage */
+.card-stage {
+  animation: fadeIn 0.8s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.start-over-button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: 2px solid #ff6b8a;
+  border-radius: 30px;
+  background: transparent;
+  color: #ff6b8a;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.start-over-button:hover {
+  background: rgba(255, 107, 138, 0.2);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .valentine-title {
+    font-size: 2rem;
+  }
+
+  .valentine-subtitle {
+    font-size: 1rem;
+  }
+
+  .button-container {
+    gap: 20px;
+  }
+
+  .yes-button {
+    padding: 15px 40px;
+    font-size: 1.1rem;
+  }
+}

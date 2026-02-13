@@ -1,0 +1,143 @@
+.valentine-ecard-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.valentine-ecard {
+  width: 400px;
+  min-height: 550px;
+  background: linear-gradient(135deg, #ffb6c1, #ff69b4, #ffb6c1);
+  border-radius: 20px;
+  border: 4px dashed #ff1493;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 10px 40px rgba(255, 105, 180, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.valentine-ecard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.2) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.ecard-hearts-top,
+.ecard-hearts-bottom {
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+  z-index: 1;
+}
+
+.ecard-content {
+  text-align: center;
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.ecard-to {
+  color: #8b0000;
+  font-size: 1.8rem;
+  margin: 0;
+  font-family: 'Georgia', serif;
+}
+
+.ecard-message {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.ecard-message p {
+  color: #4a0000;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+  word-wrap: break-word;
+}
+
+.ecard-from {
+  color: #8b0000;
+}
+
+.ecard-from p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.ecard-from h3 {
+  margin: 5px 0 0 0;
+  font-size: 1.5rem;
+  font-family: 'Georgia', serif;
+}
+
+.ecard-year {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 0.8rem;
+  color: #8b0000;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.download-button {
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff6b8a, #ff4757);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+}
+
+.download-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 71, 87, 0.5);
+}
+
+.download-button:active {
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 480px) {
+  .valentine-ecard {
+    width: 320px;
+    min-height: 480px;
+    padding: 20px;
+  }
+
+  .ecard-to {
+    font-size: 1.5rem;
+  }
+
+  .ecard-message p {
+    font-size: 1rem;
+  }
+
+  .ecard-from h3 {
+    font-size: 1.3rem;
+  }
+}

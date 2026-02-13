@@ -1,0 +1,32 @@
+.evasive-button {
+  position: fixed;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #666, #444);
+  color: white;
+  cursor: default;
+  transition: left 0.15s ease-out, top 0.15s ease-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.evasive-message {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ff9ff3;
+  font-size: 1.2rem;
+  animation: fadeInOut 1.5s ease;
+  z-index: 1001;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
